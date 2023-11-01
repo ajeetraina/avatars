@@ -66,6 +66,10 @@ docker compose up -d
 docker compose watch
 ```
 
+## Testing the watch command
+
+Try adding a new module "gunicorn" in requirements.txt file, and then you will find that it first sync the directory and then restart the service
+
 ## Generate a graphviz graph from your compose file
 
 ```
